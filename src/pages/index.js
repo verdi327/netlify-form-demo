@@ -22,8 +22,12 @@ const IndexPage = () => (
         <input type="text" name="name" id="name" />
       </div>
       <div className="field half">
-        <label htmlFor="email">Email</label>
-        <input type="text" name="email" id="email" />
+        <label htmlFor="important-topic">What's Important to You?</label>
+        <select id="important-topic">
+          <option value="crime">Crime</option>
+          <option value="education">Education</option>
+          <option value="health care">Health Care</option>
+        </select>
       </div>
       <div className="field">
         <label htmlFor="message">Message</label>
