@@ -76,6 +76,7 @@ class IndexPage extends React.Component {
               value={this.state.selectValue}
               onChange={this.handleChange}
               ref="important-topic"
+              name="important-topic"
             >
               <option value="crime">Crime</option>
               <option value="education">Education</option>
